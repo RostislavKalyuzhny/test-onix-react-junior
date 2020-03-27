@@ -1,55 +1,22 @@
-import React, { Component } from 'react'
+import React, { useContext } from 'react'
 
-import './ThemeSwitch.css'
+import './ThemeSwitch.scss'
+import { ThemeSwitchContext } from '../ThemeSwitchContext/ThemeSwitchContext.js'
 
-class ThemeSwitch extends Component {   
+const ThemeSwitch = () => {  
+	const value = useContext(ThemeSwitchContext);
 
-   state = {
-      active: true     				// false - світла тема; true - темна тема
-   };
-
-	// стилі, які інвертують стандартні кольори на сайті
-   css = `  								
-		html { 
-			filter: invert(100%); 
-			background: #fefefe; 
-		}  
-
-		* { 
-			background-color: inherit 
-		}
-
-		select option {
-			background-color: #242424;
-			color: #fefefe;
-		}
-	`;
-	
-	isActive = () => this.state.active === true;
-
-	toggle = () => {
-		this.setState({
-			active: this.isActive() ? false : true
-		});
-	};
-
-
-	render() {
-		return (  
-			<React.Fragment>
-				<span>Зміна теми:</span>
-				<input 
-					type="checkbox"
-					checked={this.state.active}
-					onChange={this.toggle}
-				/>
-				
-				<style media={this.isActive() ? 'screen' : 'none'}>  
-					{this.isActive() ? this.css.trim() : this.css}
-				</style>
-			</React.Fragment>
-		);
-	}
+	return(
+		<div className="theme-switch">
+	 		<span>Зміна теми:</span>
+	 		
+	      <input	         
+	         onChange={value.toggleTheme}
+	         type="checkbox"
+	         checked={value.theme === "night"}
+	      />
+		</div>
+	)	
 }
 
 

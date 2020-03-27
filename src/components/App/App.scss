@@ -1,31 +1,46 @@
 
+$bgcolorlight: rgb(215, 215, 215);
 
-html {
-  height: 100%; 
-
+%infullscreen {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  min-height: 100%;
 }
 
+* { 
+  background-color: inherit;
+}
 
 body {
   font-family: 'Open Sans', sans-serif;
   height: 100%;
-	background: rgb(215, 215, 215);
   font-size: 18px;
-
 }
 
-.main {
-	display: flex;
-	align-items: flex-start;
-  flex-wrap: wrap;
+.app {
+  .main {
+    display: flex;
+    align-items: flex-start;
+    flex-wrap: wrap;
+  } 
 }
 
- /*центрирование контента*/
+/*зміна теми */
 
-section{
-  padding: 0 15px;
-  background: rgb(215, 215, 215);
+.light {
+  @extend %infullscreen;
+  background: $bgcolorlight;
 }
+
+.night {
+  @extend %infullscreen;
+  filter: invert(100%);
+  background: $bgcolorlight;
+}
+
+/*центрирование контента*/
 
 @media (min-width: 375.98px){
   section {
@@ -41,7 +56,7 @@ section{
   section {
     padding: 0 calc(50% - 360px);
   }
- 
+  
   .main {
     flex-wrap: nowrap;
   }
@@ -54,7 +69,7 @@ section{
   .main {
     flex-wrap: nowrap;
   }
- 
+  
 }
 
 @media (min-width: 1199.98px){
@@ -65,3 +80,4 @@ section{
     flex-wrap: nowrap;
   }
 }
+

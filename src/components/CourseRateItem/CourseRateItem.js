@@ -1,7 +1,5 @@
 import React from 'react'
 
-import './CourseRateItem.css'
-
 const CourseRateItem = ({ ccy, base_ccy, buy, sale }) => {
 
 	return (

@@ -1,12 +1,12 @@
 import React from 'react'
 
-import './Loader.css'
+import './Loader.scss'
 
 const Loader = () => {
 
   return (
-    <div className="loadingio-spinner-eclipse">
-      <div className="ldio-wagntq1baup">
+    <div className="loader">
+      <div className="spinner">
         <div>
           
         </div>

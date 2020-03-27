@@ -1,0 +1,43 @@
+
+@keyframes rotate-spinner {
+  0% { transform: rotate(0deg) }
+  50% { transform: rotate(180deg) }
+  100% { transform: rotate(360deg) }
+}
+
+.loader {
+  width: 150px;
+  height: 150px;
+  display: block;
+  margin-top: 50px;
+  margin-left: auto;
+  margin-right: auto;
+  overflow: hidden;
+  background: none;
+
+  .spinner {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    transform: translateZ(0) scale(1);
+    backface-visibility: hidden;
+    transform-origin: 0 0; 
+
+    div { 
+      box-sizing: content-box; 
+      position: absolute;
+      animation: rotate-spinner 1.22s linear infinite;
+      width: 135px;
+      height: 135px;
+      top: 7.5px;
+      left: 7.5px;
+      border-radius: 50%;
+      box-shadow: 0 1.35px 0 0 #5252ad;
+      transform-origin: 67.5px 68.17px;
+    }
+  }
+}
+
+
+
+

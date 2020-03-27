@@ -1,5 +1,6 @@
 import React from 'react'
-import './Header.css'
+
+import './Header.scss'
 import logo from '../../images/logo.png'
 
 
@@ -10,11 +11,11 @@ const Header = () => {
 	return (
 		<header className="header">
 
-			<div className="header-box-logo">
+			<div className="logo">
 				<img src={logo} alt="Щось не так :("/>
 			</div>
 
-			<div className="header-box">
+			<div className="theme-switch-button">
 				<ThemeSwitch />
 			</div>
 			
