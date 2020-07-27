@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/test-onix-react-junior/static/css/main.7ce89fb6.chunk.css",
-    "main.js": "/test-onix-react-junior/static/js/main.4e93ec92.chunk.js",
-    "main.js.map": "/test-onix-react-junior/static/js/main.4e93ec92.chunk.js.map",
-    "runtime-main.js": "/test-onix-react-junior/static/js/runtime-main.1174f88e.js",
-    "runtime-main.js.map": "/test-onix-react-junior/static/js/runtime-main.1174f88e.js.map",
-    "static/js/2.5e3b582a.chunk.js": "/test-onix-react-junior/static/js/2.5e3b582a.chunk.js",
-    "static/js/2.5e3b582a.chunk.js.map": "/test-onix-react-junior/static/js/2.5e3b582a.chunk.js.map",
-    "index.html": "/test-onix-react-junior/index.html",
-    "precache-manifest.51d9812c454c3b1a20ce390118c0f855.js": "/test-onix-react-junior/precache-manifest.51d9812c454c3b1a20ce390118c0f855.js",
-    "service-worker.js": "/test-onix-react-junior/service-worker.js",
-    "static/css/main.7ce89fb6.chunk.css.map": "/test-onix-react-junior/static/css/main.7ce89fb6.chunk.css.map",
-    "static/js/2.5e3b582a.chunk.js.LICENSE": "/test-onix-react-junior/static/js/2.5e3b582a.chunk.js.LICENSE",
-    "static/media/logo.svg": "/test-onix-react-junior/static/media/logo.5d5d9eef.svg"
+    "main.css": "/static/css/main.7ce89fb6.chunk.css",
+    "main.js": "/static/js/main.4e93ec92.chunk.js",
+    "main.js.map": "/static/js/main.4e93ec92.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.f30ac926.js",
+    "runtime-main.js.map": "/static/js/runtime-main.f30ac926.js.map",
+    "static/js/2.0501d92a.chunk.js": "/static/js/2.0501d92a.chunk.js",
+    "static/js/2.0501d92a.chunk.js.map": "/static/js/2.0501d92a.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.bd65a9b1133a2c67876fe463a60c4008.js": "/precache-manifest.bd65a9b1133a2c67876fe463a60c4008.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/main.7ce89fb6.chunk.css.map": "/static/css/main.7ce89fb6.chunk.css.map",
+    "static/js/2.0501d92a.chunk.js.LICENSE": "/static/js/2.0501d92a.chunk.js.LICENSE",
+    "static/media/logo.svg": "/static/media/logo.5d5d9eef.svg"
   },
   "entrypoints": [
-    "static/js/runtime-main.1174f88e.js",
-    "static/js/2.5e3b582a.chunk.js",
+    "static/js/runtime-main.f30ac926.js",
+    "static/js/2.0501d92a.chunk.js",
     "static/css/main.7ce89fb6.chunk.css",
     "static/js/main.4e93ec92.chunk.js"
   ]
