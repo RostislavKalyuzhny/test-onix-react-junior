@@ -71,7 +71,7 @@ const CourseRate = () => {
 		<div className="exchange-rates">
 
 			<div className="course-header">
-				<span>Курси валют (ПриватБанк)</span>
+				<h2>Курси валют (ПриватБанк)</h2>
 
 				<select className ="select-css" defaultValue={typeRates} onChange={handleChange}>
 					<option value="inCash">У відділеннях</option>

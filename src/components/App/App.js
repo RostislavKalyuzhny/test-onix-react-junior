@@ -2,27 +2,35 @@ import React, { useContext } from 'react'
 import './App.scss'
 
 import Header from '../Header/Header.js'
-import AboutMe from '../AboutMe/AboutMe.js'
-import CourseRate from '../CourseRate/CourseRate.js'
-import { ThemeSwitchContext } from '../ThemeSwitchContext/ThemeSwitchContext.js'
+import Article from '../Article/Article.js'
+import Footer from '../Footer/Footer.js'
+import SideBar from '../SideBar/SideBar.js'
 
+import { ThemeSwitchContext } from '../ThemeSwitchContext/ThemeSwitchContext.js'
+import { BrowserRouter as Router } from 'react-router-dom'
+
+/* об'єднує всі компоненти */
 const App = () => {	
+
 	const value = useContext(ThemeSwitchContext);
 
 	let classTheme = (value.theme === 'night') ? 'night' : 'light'; 
 
 	return (
-		<div className={`app ` + classTheme}>
-			<section>
-				<Header />
+			<Router>
+				<div className={ classTheme }>
+					<div className="container">
+						<Header />
 
-				<main className="main">
-					<AboutMe />				
-					<CourseRate />
-				</main>	
-
-			</section>
-		</div>
+						<Article />
+						
+						<SideBar />
+						
+						<Footer />
+						
+					</div>
+				</div>
+			</Router>
 		)
 
 }

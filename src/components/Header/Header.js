@@ -3,19 +3,34 @@ import React from 'react'
 import './Header.scss'
 import logo from '../../images/logo.png'
 
-
+import ArticleLinks from '../ArticleLinks/ArticleLinks.js'
 import ThemeSwitch from '../ThemeSwitch/ThemeSwitch.js'
+import { Link } from 'react-router-dom'
 
 
 const Header = () => {
 	return (
-		<header className="header">
+		<header id="header">
 
-			<div className="logo">
-				<img src={logo} alt="Щось не так :("/>
-			</div>
+				<Link to='/'>
+					<img className="logo" src={logo} alt="Щось не так :("/> 
+				</Link>
+				
+			<nav className="nav">
+				<ul className="nav-main">
+					<li>
+						<Link to='/about-me'>Про мене</Link>
+					</li>
+					<li>
+						<Link to='/course-rate'>Курс валют</Link>
+					</li>
+				</ul>
+	
+				<ArticleLinks /> {/* виводиться тільки в мобільній версії (App.scss - медіа запроси)*/}
 
-			<div className="theme-switch-button">
+			</nav>
+
+			<div className="switch-theme">
 				<ThemeSwitch />
 			</div>
 			

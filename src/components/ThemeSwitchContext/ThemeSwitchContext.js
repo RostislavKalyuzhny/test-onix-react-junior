@@ -10,7 +10,7 @@ class ThemeSwitchProvider extends Component {
 	};
 
 	state = {
-		theme: "night",
+		theme: "light",
 		toggleTheme: this.toggleTheme
 	};
 

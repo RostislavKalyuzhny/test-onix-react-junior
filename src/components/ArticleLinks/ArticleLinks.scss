@@ -1,0 +1,22 @@
+
+.article-links {
+	padding: 20px;
+	box-shadow: inset 2px 2px 5px rgba(154, 147, 140, 0.5), 1px 1px 5px rgba(255, 255, 255, 1);
+
+	li {
+		margin: 3px;
+	}
+}
+
+.article-links li a {
+	color: #000;
+	font-style: italic;
+	text-decoration: none;
+}
+
+.article-links li a:hover{
+	background: #000;
+	color: #fff;
+}
+
+

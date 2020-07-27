@@ -1,0 +1,15 @@
+
+
+.article-page p {
+	margin: 10px;
+}
+
+.article-page p::first-letter {
+	font-size: 1.4em;
+	margin-left: 30px;
+}
+
+.date {
+	font-style: italic;
+	text-align: right;
+}
