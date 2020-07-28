@@ -12,7 +12,7 @@ const Header = () => {
 	return (
 		<header id="header">
 
-				<Link to='/'>
+				<Link to='/test-onix-react-junior/'>
 					<img className="logo" src={logo} alt="Щось не так :("/> 
 				</Link>
 				

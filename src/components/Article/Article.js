@@ -12,7 +12,7 @@ const Article = () => {
 	return(
 		<article id="article">
 			<Switch>
-				<Route path='/' exact render={StartPage}/>
+				<Route path='/test-onix-react-junior/' exact render={StartPage}/>
 				<Route path='/about-me' component={AboutMe} />
 				<Route path='/course-rate' component={CourseRate} />
 
