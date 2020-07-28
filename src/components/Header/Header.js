@@ -12,10 +12,12 @@ const Header = () => {
 	return (
 		<header id="header">
 
-				<Link to='/test-onix-react-junior/'>
-					<img className="logo" src={logo} alt="Щось не так :("/> 
-				</Link>
-				
+				<div className="logo">
+					<Link to='/test-onix-react-junior/'>
+						<img src={logo} alt="Щось не так :("/> 
+					</Link>
+				</div>
+							
 			<nav className="nav">
 				<ul className="nav-main">
 					<li>
