@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import './CourseRate.scss';
 
-import CourseRateItem from '../CourseRateItem/CourseRateItem';
+import CourseRateItem from './CourseRateItem';
 import ExchangeRates from '../../services/ExchangeRates';
 import Loader from '../Loader/Loader';
 import ErrorMessage from '../ErrorMessage/ErrorMessage';
