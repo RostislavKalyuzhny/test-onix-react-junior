@@ -11,7 +11,7 @@ const ArticleLinks = () => {
   return (
     <div className="article-links">
       <ul>
-        { articles.getLinkArticles().map((link) => <ArticleLinksItem {...link} />) }
+        { articles.getLinkArticles().map((link) => <ArticleLinksItem key={link.id} {...link} />) }
       </ul>
     </div>
 

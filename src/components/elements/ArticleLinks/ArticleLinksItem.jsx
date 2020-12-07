@@ -3,8 +3,8 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 
 /* eslint camelcase: 0 */
-const ArticleLinksItem = ({ id, url_name, name }) => (
-  <li key={id}>
+const ArticleLinksItem = ({ url_name, name }) => (
+  <li>
     <Link to={`/article/${url_name}`}>{name}</Link>
   </li>
 );
