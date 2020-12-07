@@ -2,10 +2,10 @@ import React from 'react';
 import './Article.scss';
 
 import { Switch, Route } from 'react-router-dom';
-import CourseRate from '../CourseRate/CourseRate';
-import AboutMe from '../AboutMe/AboutMe';
-import ArticlePage from '../ArticlePage/ArticlePage';
-import StartPage from '../StartPage/StartPage';
+import CourseRate from '../../pages/CourseRate/CourseRate';
+import AboutMe from '../../pages/AboutMe/AboutMe';
+import ArticlePage from '../../pages/ArticlePage/ArticlePage';
+import StartPage from '../../pages/StartPage/StartPage';
 
 /* відповідає за відображення контенту сторінки (головне меню та сайтбар) */
 const Article = () => (

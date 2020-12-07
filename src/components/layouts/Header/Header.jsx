@@ -2,10 +2,10 @@ import React from 'react';
 
 import './Header.scss';
 import { Link } from 'react-router-dom';
-import logo from '../../images/logo.png';
+import logo from '../../../images/logo.png';
 
-import ArticleLinks from '../ArticleLinks/ArticleLinks';
-import ThemeSwitch from '../ThemeSwitch/ThemeSwitch';
+import ArticleLinks from '../../elements/ArticleLinks/ArticleLinks';
+import ThemeSwitch from '../../elements/ThemeSwitch/ThemeSwitch';
 
 const Header = () => (
   <header id="header">

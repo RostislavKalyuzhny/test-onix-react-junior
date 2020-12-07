@@ -1,7 +1,7 @@
 import React from 'react';
 import './ArticlePage.scss';
 
-import Articles from '../../services/Articles';
+import Articles from '../../../services/Articles.js';
 
 /* генерує статтю відповідно до її - url_name */
 const ArticlePage = ({ nameUrl }) => {

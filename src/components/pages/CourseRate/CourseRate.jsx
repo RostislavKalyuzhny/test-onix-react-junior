@@ -2,9 +2,9 @@ import React, { useState, useEffect } from 'react';
 import './CourseRate.scss';
 
 import CourseRateItem from './CourseRateItem';
-import ExchangeRates from '../../services/ExchangeRates';
-import Loader from '../Loader/Loader';
-import ErrorMessage from '../ErrorMessage/ErrorMessage';
+import ExchangeRates from '../../../services/ExchangeRates';
+import Loader from '../../elements/Loader/Loader';
+import ErrorMessage from '../../elements/ErrorMessage/ErrorMessage';
 
 // компонент який отримує данні з API
 const CourseRate = () => {

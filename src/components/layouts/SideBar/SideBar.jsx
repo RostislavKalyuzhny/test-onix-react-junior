@@ -1,7 +1,7 @@
 import React from 'react';
 import './SideBar.scss';
 
-import ArticleLinks from '../ArticleLinks/ArticleLinks';
+import ArticleLinks from '../../elements/ArticleLinks/ArticleLinks';
 
 const SideBar = () => (
   <aside id="aside">

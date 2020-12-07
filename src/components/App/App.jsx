@@ -2,12 +2,12 @@ import React, { useContext } from 'react';
 import './App.scss';
 
 import { BrowserRouter as Router } from 'react-router-dom';
-import Header from '../Header/Header';
-import Article from '../Article/Article';
-import Footer from '../Footer/Footer';
-import SideBar from '../SideBar/SideBar';
+import Header from '../layouts/Header/Header';
+import Article from '../layouts/Article/Article';
+import Footer from '../layouts/Footer/Footer';
+import SideBar from '../layouts/SideBar/SideBar';
 
-import { ThemeSwitchContext } from '../ThemeSwitchContext/ThemeSwitchContext';
+import { ThemeSwitchContext } from '../elements/ThemeSwitchContext/ThemeSwitchContext';
 
 /* об'єднує всі компоненти */
 const App = () => {

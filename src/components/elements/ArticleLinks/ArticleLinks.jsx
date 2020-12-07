@@ -1,7 +1,7 @@
 import React from 'react';
 import './ArticleLinks.scss';
 
-import Articles from '../../services/Articles';
+import Articles from '../../../services/Articles';
 import ArticleLinksItem from './ArticleLinksItem';
 
 /* створює посилання на статті в сайтбарі */
