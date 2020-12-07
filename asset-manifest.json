@@ -1,23 +1,21 @@
 {
   "files": {
-    "main.css": "/test-onix-react-junior/static/css/main.40020f8a.chunk.css",
-    "main.js": "/test-onix-react-junior/static/js/main.a27bc2fa.chunk.js",
-    "main.js.map": "/test-onix-react-junior/static/js/main.a27bc2fa.chunk.js.map",
-    "runtime-main.js": "/test-onix-react-junior/static/js/runtime-main.9475d657.js",
-    "runtime-main.js.map": "/test-onix-react-junior/static/js/runtime-main.9475d657.js.map",
-    "static/js/2.2bafab75.chunk.js": "/test-onix-react-junior/static/js/2.2bafab75.chunk.js",
-    "static/js/2.2bafab75.chunk.js.map": "/test-onix-react-junior/static/js/2.2bafab75.chunk.js.map",
+    "main.css": "/test-onix-react-junior/static/css/main.042929cc.chunk.css",
+    "main.js": "/test-onix-react-junior/static/js/main.5d5c5e29.chunk.js",
+    "main.js.map": "/test-onix-react-junior/static/js/main.5d5c5e29.chunk.js.map",
+    "runtime-main.js": "/test-onix-react-junior/static/js/runtime-main.680b98dd.js",
+    "runtime-main.js.map": "/test-onix-react-junior/static/js/runtime-main.680b98dd.js.map",
+    "static/js/2.8ee8d581.chunk.js": "/test-onix-react-junior/static/js/2.8ee8d581.chunk.js",
+    "static/js/2.8ee8d581.chunk.js.map": "/test-onix-react-junior/static/js/2.8ee8d581.chunk.js.map",
     "index.html": "/test-onix-react-junior/index.html",
-    "precache-manifest.073d50e0203377b594f88fcb541e484c.js": "/test-onix-react-junior/precache-manifest.073d50e0203377b594f88fcb541e484c.js",
-    "service-worker.js": "/test-onix-react-junior/service-worker.js",
-    "static/css/main.40020f8a.chunk.css.map": "/test-onix-react-junior/static/css/main.40020f8a.chunk.css.map",
-    "static/js/2.2bafab75.chunk.js.LICENSE.txt": "/test-onix-react-junior/static/js/2.2bafab75.chunk.js.LICENSE.txt",
-    "static/media/logo.svg": "/test-onix-react-junior/static/media/logo.5d5d9eef.svg"
+    "static/css/main.042929cc.chunk.css.map": "/test-onix-react-junior/static/css/main.042929cc.chunk.css.map",
+    "static/js/2.8ee8d581.chunk.js.LICENSE.txt": "/test-onix-react-junior/static/js/2.8ee8d581.chunk.js.LICENSE.txt",
+    "static/media/logo.2d27ead7.svg": "/test-onix-react-junior/static/media/logo.2d27ead7.svg"
   },
   "entrypoints": [
-    "static/js/runtime-main.9475d657.js",
-    "static/js/2.2bafab75.chunk.js",
-    "static/css/main.40020f8a.chunk.css",
-    "static/js/main.a27bc2fa.chunk.js"
+    "static/js/runtime-main.680b98dd.js",
+    "static/js/2.8ee8d581.chunk.js",
+    "static/css/main.042929cc.chunk.css",
+    "static/js/main.5d5c5e29.chunk.js"
   ]
 }
