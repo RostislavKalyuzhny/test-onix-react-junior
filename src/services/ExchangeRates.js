@@ -16,7 +16,7 @@ apiBase = 'https://api.privatbank.ua/p24api/pubinfo?json&exchange&coursid=';
  * @example
  *
  * getResource(5);
- * => [   
+ * => [
  *        {"ccy":"USD","base_ccy":"UAH","buy":"28.10000","sale":"28.50000"},
  *        {"ccy":"EUR","base_ccy":"UAH","buy":"33.95000","sale":"34.55000"},
  *        {"ccy":"RUR","base_ccy":"UAH","buy":"0.36000","sale":"0.40000"},
