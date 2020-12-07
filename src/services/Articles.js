@@ -1,3 +1,7 @@
+/**
+ * @namespace Articles
+ */
+
 export default class Articles {
 articles = [
   {
@@ -30,7 +34,30 @@ articles = [
   },
 ];
 
-/* повертає масив об'єктів, з властивостями потрібними для відображення посилань на статті */
+/**
+ * Returns objects with the properties needed to display links in articles
+ *
+ * @memberOf Articles
+ * @return {Object} Array of objects with article parameters
+ * @example
+ *
+ * getLinkArticles();
+ * => [
+ *      {
+ *        id: 1,
+ *        url_name: 'react',
+ *        name: 'React'
+ *      },
+ *      {
+ *        id: 2,
+ *        url_name: 'java-script',
+ *        name: 'JavaScript'
+ *      },
+ *      {
+ *        ...
+ *      }
+ *    ]
+ */
 getLinkArticles() {
   const link = this.articles.map((obj) => ({
     id: obj.id,
@@ -41,7 +68,23 @@ getLinkArticles() {
   return link;
 }
 
-/* повертає знайдену статтю по url_name */
+/**
+ * Return finds article by url_name
+ *
+ * @memberOf Articles
+ * @param  {String} url URL name of article
+ * @return {Object} Objects with article parameters
+ *
+ * @example
+ * getArticlesByURL('java-script');
+ * => {
+        id: 2,
+        url_name: 'java-script',
+        name: 'JavaScript',
+        text: "JavaScript (JS) — динамічна...",
+        date: '19.07.2020',
+      }
+ */
 getArticlesByURL(url) {
   const article = this.articles.find((obj) => obj.url_name === url);
 
